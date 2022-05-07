@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 160, in <module>
+    main()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 12, in main
+    menu()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 31, in menu
+    cadastrar_produto()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 61, in cadastrar_produto
+    menu()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 35, in menu
+    comprar_produto()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 108, in comprar_produto
+    menu()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 39, in menu
+    fechar_pedido()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 139, in fechar_pedido
+    print(f'quantidade: {dados[2]}')
+IndexError: tuple index out of range
+
+Traceback (most recent call last):
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 159, in <module>
+    main()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 12, in main
+    menu()
+  File "C:/Users/Eduar/PycharmProjects/MercadoSYS/mercado.py", line 29, in menu
+    opcao: int = int(input())
+ValueError: invalid literal for int() with base 10: ''
+
+
+
+
+
+> o erro foi resolvido arrumando o 'print(f'quantidade: {dados[2]}')' de 2 para 1.
+apenas desatenção minha
